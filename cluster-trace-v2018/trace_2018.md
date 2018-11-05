@@ -30,8 +30,8 @@ The download link of the trace will be provided soon (we are running through som
 | -------- | -------- | -------- | -------- |
 | machine_id     | string  | The unique ID (uid) of a machine     |  |
 | time_stamp     |  int  | time index  | 0 means the time stamp is before or after the 8-day time span |
-| disaster_level_1     |  string  | 1st level of failure domain  | rack  |
-| disaster_level_2     |  string  | 2nd level of failure domain    | nc_asw  |
+| disaster_level_1     |  string  | 1st level of failure domain  |  we have multiple levels of failure domains of which two are provided in this version of trace |
+| disaster_level_2     |  string  | 2nd level of failure domain    | we have multiple levels of failure domains of which two are provided in this version of trace  |
 | cpu_num     |  int  | num of cpu of a machine     | unit is "core", e.g. 4 means 4 cores on the machine |
 | mem_size     |  int  | memory size of a machine     |   |
 | disk_size     |  int  | disk size of a machine     |   |
